@@ -61,23 +61,26 @@ Before you begin, ensure that you have an AWS account, a basic understanding of 
 
 7. After Installation check the installation by running kubectl command.
 
-8. Now create yaml deployment attached to loadbalancer so that prometheus and Grafana can monitor it.
+8. Now create yaml deployment attached to load balancer so that Prometheus and Grafana can monitor it.
 
 ![service-loadbalancer](https://github.com/hijackhim/K8s-Prometheus-Grafana-monitoring/assets/105789918/5c1c7cc7-317f-4109-8c81-247194f3f4f0)
 
 ![deployment for k8s](https://github.com/hijackhim/K8s-Prometheus-Grafana-monitoring/assets/105789918/e815f3aa-8845-4064-bb80-9b911a2530d5)
 
-9. You can access the service through external ip.
+9. You can access the service through external IP.
 
 10. Setting up Prometheus and Garafana using Helm charts
 
-11. After installing both edit the services type to loadbalancer so that it can be accessible from browser.
+11. After installing both edit the services type to loadbalancer so that it can be accessible from the browser.
 
 ![image](https://github.com/hijackhim/K8s-Prometheus-Grafana-monitoring/assets/105789918/92d67a10-853c-4a4a-b874-def2120d70a4)
 
-12. After accessing promethus targets can be seen like this
+12. After accessing Prometheus targets can be seen like this
+
 ![prometheus-target](https://github.com/hijackhim/K8s-Prometheus-Grafana-monitoring/assets/105789918/a3a9c254-91b9-4bcd-bf90-f1f619115ea5)
-13. After linking both graphana and prometheus by selecting dashboard and entering URL, Grafana will look like this
+
+13. After linking both Grafana and Prometheus by selecting Dashboard and entering the URL, Grafana will look like this
+
 ![grafana-dashboard](https://github.com/hijackhim/K8s-Prometheus-Grafana-monitoring/assets/105789918/93356dfe-e4b1-46f6-b1a7-7d61dbdbac4a)
 
 
