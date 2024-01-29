@@ -23,13 +23,14 @@ Creating an EKS Management Host on AWS
 Before you begin, ensure that you have an AWS account, a basic understanding of AWS, Kubernetes, EKS, and the required permissions to create resources within AWS.
 
 1. Use below command to install kubectl
- $ curl -o kubectl https://amazon-eks.s3.us-west-2.amazonaws.com/1.19.6/2021-01-05/bin/linux/amd64/kubectl
+ 
+  $ curl -o kubectl https://amazon-eks.s3.us-west-2.amazonaws.com/1.19.6/2021-01-05/bin/linux/amd64/kubectl
 
- $ chmod +x ./kubectl
+  $ chmod +x ./kubectl
  
- $ sudo mv ./kubectl /usr/local/bin
+  $ sudo mv ./kubectl /usr/local/bin
  
- $ kubectl version --short --client
+  $ kubectl version --short --client
 
 2. Install AWS CLI latest version using AWS documentation
 3. Install eksctl using AWS documentation
@@ -39,11 +40,11 @@ Before you begin, ensure that you have an AWS account, a basic understanding of 
 
   Add below permissions for the role
 
- IAM - fullaccess
- VPC - fullaccess
- EC2 - fullaccess
- CloudFomration - fullaccess
-  Administrator - access
+  IAM - fullaccess
+  VPC - fullaccess
+  EC2 - fullaccess
+  CloudFomration - fullaccess
+   Administrator - access
 5. Attach created role to EKS Management Host (Select EC2 => Click on Security => Modify IAM Role => attach IAM role we have created)
 6. Create EKS Cluster using eksctl using documentation.
   EKS will create instance and cluster according to input given while creating EKS cluster
