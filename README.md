@@ -1,4 +1,4 @@
-                                                                            ##AWS EKS Cluster Monitoring with Prometheus, Grafana##
+                                                ##AWS EKS Cluster Monitoring with Prometheus, Grafana##
 ## Overview📝
 To achieve comprehensive monitoring for an AWS EKS (Elastic Kubernetes Service) cluster, we will leverage open-source tools such as Prometheus, Grafana. Each tool plays a crucial role in the monitoring setup:
 
